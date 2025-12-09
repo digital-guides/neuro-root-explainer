@@ -53,7 +53,7 @@ export interface AdvertorialContent {
   educational: {
     title: string;
     states: {
-      icon: "zap" | "battery" | "refresh";
+      icon: "zap" | "battery" | "refresh" | "shuffle";
       title: string;
       description: string;
     }[];

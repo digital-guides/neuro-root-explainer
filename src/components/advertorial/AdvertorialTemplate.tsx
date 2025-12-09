@@ -1,6 +1,6 @@
 import { AdvertorialContent } from "@/types/advertorial";
 import { Button } from "@/components/ui/button";
-import { Zap, Battery, RefreshCcw, ArrowRight, LucideIcon } from "lucide-react";
+import { Zap, Battery, RefreshCcw, Shuffle, ArrowRight, LucideIcon } from "lucide-react";
 
 interface AdvertorialTemplateProps {
   content: AdvertorialContent;
@@ -10,6 +10,7 @@ const iconMap: Record<string, LucideIcon> = {
   zap: Zap,
   battery: Battery,
   refresh: RefreshCcw,
+  shuffle: Shuffle,
 };
 
 const stateColors = [
