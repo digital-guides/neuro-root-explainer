@@ -10,7 +10,7 @@ import Footer from "@/components/advertorial/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <main className="container">
+      <main className="max-w-2xl mx-auto px-4">
         <article>
           <HeroSection />
           <StorytellingSection />
