@@ -3,31 +3,31 @@ import nervousSystem from "@/assets/nervous-system.jpg";
 
 const HeroSection = () => {
   return (
-    <header className="pt-12 pb-8 md:pt-16 md:pb-12">
+    <header className="pt-8 pb-4 md:pt-10 md:pb-6">
       {/* H1 - Main emotional headline */}
-      <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] leading-tight text-foreground mb-6 animate-fade-up">
+      <h1 className="font-display text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground mb-4">
         Cuando nadie logró explicarme mis 40 síntomas, descubrí que todos tenían una misma raíz
       </h1>
       
       {/* H3 - Scientific subtitle */}
-      <h3 className="font-body text-lg md:text-xl text-subtle leading-relaxed mb-10 animate-fade-up animation-delay-100">
+      <h3 className="font-body text-base md:text-lg text-subtle leading-relaxed mb-6">
         Una explicación basada en neurociencia sobre por qué diferentes síntomas pueden tener una sola causa oculta.
       </h3>
 
       {/* Two images side by side */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 animate-fade-up animation-delay-200">
-        <div className="relative overflow-hidden rounded-xl shadow-card">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="relative overflow-hidden rounded-lg shadow-soft">
           <img 
             src={exhaustedWoman} 
             alt="Mujer joven mostrando signos de agotamiento físico y emocional" 
-            className="w-full h-64 md:h-80 object-cover object-top"
+            className="w-full h-56 md:h-64 object-cover object-top"
           />
         </div>
-        <div className="relative overflow-hidden rounded-xl shadow-card bg-card">
+        <div className="relative overflow-hidden rounded-lg shadow-soft bg-card">
           <img 
             src={nervousSystem} 
             alt="Ilustración científica del sistema nervioso humano" 
-            className="w-full h-64 md:h-80 object-contain bg-gradient-to-b from-secondary/10 to-transparent p-4"
+            className="w-full h-56 md:h-64 object-contain p-3"
           />
         </div>
       </div>
