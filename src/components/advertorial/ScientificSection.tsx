@@ -1,3 +1,5 @@
+import nervousSystemImage from "@/assets/nervous-system-image.jpg";
+
 const ScientificSection = () => {
   return (
     <section className="py-5 md:py-6 border-t border-border/30">
@@ -51,6 +53,14 @@ const ScientificSection = () => {
           <p className="text-2xl md:text-3xl font-display font-semibold text-secondary">
             Mi cuerpo estaba intentando protegerme.
           </p>
+        </div>
+
+        <div className="mt-4">
+          <img 
+            src={nervousSystemImage} 
+            alt="Sistema nervioso y su impacto en el cuerpo" 
+            className="w-full rounded-lg"
+          />
         </div>
       </div>
     </section>
