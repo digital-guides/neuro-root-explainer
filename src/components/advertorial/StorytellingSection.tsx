@@ -46,11 +46,11 @@ const StorytellingSection = () => {
           Hasta que encontré una línea de investigación que cambió por completo la forma en que entendía lo que me estaba pasando.
         </p>
 
-        <div className="pt-2">
-          <p className="text-lg md:text-xl font-display font-semibold text-foreground">
+        <div className="pt-4 text-center">
+          <p className="text-2xl md:text-3xl font-display font-semibold text-foreground">
             No eran 40 problemas diferentes.
           </p>
-          <p className="text-lg md:text-xl font-display font-semibold text-secondary">
+          <p className="text-2xl md:text-3xl font-display font-semibold text-secondary">
             Era un sistema nervioso pidiendo auxilio.
           </p>
         </div>

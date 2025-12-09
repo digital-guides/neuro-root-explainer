@@ -41,14 +41,14 @@ const ScientificSection = () => {
           <strong className="text-foreground font-semibold">Andrew Huberman</strong>, neurocientífico de Stanford, explica que estados autonómicos alterados pueden generar síntomas múltiples sin un único origen médico evidente.
         </p>
 
-        <div className="bg-gradient-to-r from-secondary/10 to-accent/10 rounded-lg p-5 border-l-3 border-secondary">
-          <p className="text-base md:text-lg leading-relaxed text-foreground/90 mb-1">
+        <div className="bg-gradient-to-r from-secondary/10 to-accent/10 rounded-lg p-5 border-l-3 border-secondary text-center">
+          <p className="text-base md:text-lg leading-relaxed text-foreground/90 mb-2">
             De pronto, todo tenía sentido:
           </p>
-          <p className="text-lg md:text-xl font-display font-semibold text-foreground">
+          <p className="text-2xl md:text-3xl font-display font-semibold text-foreground">
             Mi cuerpo no estaba fallando.
           </p>
-          <p className="text-lg md:text-xl font-display font-semibold text-secondary">
+          <p className="text-2xl md:text-3xl font-display font-semibold text-secondary">
             Mi cuerpo estaba intentando protegerme.
           </p>
         </div>

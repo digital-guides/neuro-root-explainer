@@ -54,11 +54,11 @@ const EducationalSection = () => {
         ))}
       </div>
 
-      <div className="mt-5 pt-4 border-t border-border/30">
-        <p className="text-base md:text-lg font-medium text-foreground">
+      <div className="mt-5 pt-4 border-t border-border/30 text-center">
+        <p className="text-2xl md:text-3xl font-display font-medium text-foreground">
           No es inestabilidad psicológica.
         </p>
-        <p className="text-base md:text-lg font-semibold text-secondary">
+        <p className="text-2xl md:text-3xl font-display font-semibold text-secondary">
           Es neurofisiología.
         </p>
       </div>
