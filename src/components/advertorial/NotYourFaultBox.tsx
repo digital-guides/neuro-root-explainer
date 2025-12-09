@@ -2,7 +2,7 @@ const NotYourFaultBox = () => {
   return (
     <section className="py-5 md:py-6">
       <div className="bg-info rounded-lg p-5 md:p-6 border border-info-border">
-        <h2 className="font-display text-xl md:text-2xl text-foreground mb-4">
+        <h2 className="font-display text-xl md:text-2xl text-orange-500 mb-4">
           No es tu culpa
         </h2>
         
