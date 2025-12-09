@@ -26,7 +26,7 @@ const EducationalSection = () => {
   ];
 
   return (
-    <section className="py-5 md:py-6 border-t border-border/30">
+    <section className="pt-5 md:pt-6 pb-2 border-t border-border/30">
       <h2 className="font-display text-xl md:text-2xl text-foreground mb-5">
         Lo que realmente está pasando en tu sistema nervioso
       </h2>
