@@ -1,20 +1,20 @@
 const NotYourFaultBox = () => {
   return (
-    <section className="py-10 md:py-14">
-      <div className="bg-info rounded-2xl p-8 md:p-10 border border-info-border shadow-soft">
-        <h2 className="font-display text-2xl md:text-3xl text-foreground mb-6">
+    <section className="py-5 md:py-6">
+      <div className="bg-info rounded-lg p-5 md:p-6 border border-info-border">
+        <h2 className="font-display text-xl md:text-2xl text-foreground mb-4">
           No es tu culpa
         </h2>
         
-        <p className="text-lg md:text-xl leading-relaxed text-foreground/90 mb-6">
+        <p className="text-base md:text-lg leading-relaxed text-foreground/90 mb-4">
           No es tu culpa: tu sistema nervioso estaba haciendo su trabajo.
         </p>
 
-        <p className="text-lg leading-relaxed text-foreground/80 mb-4">
+        <p className="text-base md:text-lg leading-relaxed text-foreground/80 mb-3">
           Estudios de <strong className="font-semibold">Robert Sapolsky</strong>, <strong className="font-semibold">Bruce McEwen</strong> y <strong className="font-semibold">Lisa Feldman Barrett</strong> muestran que:
         </p>
 
-        <ul className="space-y-3 my-6 pl-0 list-none">
+        <ul className="space-y-2 pl-0 list-none mb-4">
           {[
             "el cuerpo prioriza la supervivencia antes que la comodidad",
             "la percepción de amenaza puede mantenerse incluso cuando ya no existe",
@@ -22,21 +22,19 @@ const NotYourFaultBox = () => {
           ].map((point, index) => (
             <li 
               key={index}
-              className="flex items-start gap-3 text-lg text-foreground/85"
+              className="flex items-start gap-2 text-base md:text-lg text-foreground/85"
             >
-              <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-accent/20 text-accent text-sm font-bold flex-shrink-0 mt-0.5">
-                ✓
-              </span>
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
               {point}
             </li>
           ))}
         </ul>
 
-        <div className="pt-4 border-t border-info-border mt-6">
-          <p className="text-lg md:text-xl font-medium text-foreground">
+        <div className="pt-3 border-t border-info-border">
+          <p className="text-base md:text-lg font-medium text-foreground">
             Tu cuerpo no estaba exagerando.
           </p>
-          <p className="text-lg md:text-xl font-semibold text-secondary">
+          <p className="text-base md:text-lg font-semibold text-secondary">
             Tu cuerpo estaba respondiendo.
           </p>
         </div>
