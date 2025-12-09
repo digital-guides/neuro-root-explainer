@@ -1,5 +1,4 @@
-import exhaustedWoman from "@/assets/exhausted-woman.jpg";
-import nervousSystem from "@/assets/nervous-system.jpg";
+import heroImage from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
   return (
@@ -14,22 +13,13 @@ const HeroSection = () => {
         Una explicación basada en neurociencia sobre por qué diferentes síntomas pueden tener una sola causa oculta.
       </h3>
 
-      {/* Two images side by side */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="relative overflow-hidden rounded-lg shadow-soft">
-          <img 
-            src={exhaustedWoman} 
-            alt="Mujer joven mostrando signos de agotamiento físico y emocional" 
-            className="w-full h-48 md:h-56 object-cover object-top"
-          />
-        </div>
-        <div className="relative overflow-hidden rounded-lg shadow-soft bg-card">
-          <img 
-            src={nervousSystem} 
-            alt="Ilustración científica del sistema nervioso humano" 
-            className="w-full h-48 md:h-56 object-cover"
-          />
-        </div>
+      {/* Single combined image */}
+      <div className="relative overflow-hidden rounded-lg shadow-soft">
+        <img 
+          src={heroImage} 
+          alt="Mujer con agotamiento y sistema nervioso - conexión mente-cuerpo" 
+          className="w-full h-auto max-h-64 md:max-h-80 object-cover"
+        />
       </div>
     </header>
   );
