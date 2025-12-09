@@ -20,14 +20,14 @@ const HeroSection = () => {
           <img 
             src={exhaustedWoman} 
             alt="Mujer joven mostrando signos de agotamiento físico y emocional" 
-            className="w-full h-56 md:h-64 object-cover object-top"
+            className="w-full h-48 md:h-56 object-cover object-top"
           />
         </div>
         <div className="relative overflow-hidden rounded-lg shadow-soft bg-card">
           <img 
             src={nervousSystem} 
             alt="Ilustración científica del sistema nervioso humano" 
-            className="w-full h-56 md:h-64 object-contain p-3"
+            className="w-full h-48 md:h-56 object-cover"
           />
         </div>
       </div>
