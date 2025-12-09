@@ -14,11 +14,11 @@ const HeroSection = () => {
       </h3>
 
       {/* Single combined image */}
-      <div className="relative overflow-hidden rounded-lg shadow-soft">
+      <div className="flex justify-center">
         <img 
           src={heroImage} 
           alt="Mujer con agotamiento y sistema nervioso - conexión mente-cuerpo" 
-          className="w-full h-auto max-h-64 md:max-h-80 object-cover"
+          className="max-w-sm md:max-w-md h-auto rounded-lg shadow-soft"
         />
       </div>
     </header>
