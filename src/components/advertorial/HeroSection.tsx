@@ -9,7 +9,7 @@ const HeroSection = () => {
         <img 
           src={logoReconexion} 
           alt="Reconexión Expresiva" 
-          className="h-16 md:h-20 w-auto"
+          className="h-8 md:h-10 w-auto"
         />
       </div>
       
