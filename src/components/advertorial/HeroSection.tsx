@@ -1,18 +1,8 @@
 import heroImage from "@/assets/hero-image.jpg";
-import logoReconexion from "@/assets/logo-reconexion.jpg";
 
 const HeroSection = () => {
   return (
     <header className="pt-6 pb-4">
-      {/* Logo */}
-      <div className="flex justify-center mb-4">
-        <img 
-          src={logoReconexion} 
-          alt="Reconexión Expresiva" 
-          className="h-8 md:h-10 w-auto"
-        />
-      </div>
-      
       {/* H1 - Main emotional headline - larger like reference */}
       <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight text-foreground mb-2 text-center">
         Cuando nadie logró explicarme mis 40 síntomas, descubrí que todos tenían{" "}
