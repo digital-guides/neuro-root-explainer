@@ -20,6 +20,9 @@ const HeroSection = () => {
           src={heroImage} 
           alt="Mujer con agotamiento y sistema nervioso - conexión mente-cuerpo" 
           className="w-full h-auto rounded-lg shadow-soft"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
         />
       </div>
     </header>
