@@ -60,6 +60,8 @@ const ScientificSection = () => {
             src={nervousSystemImage} 
             alt="Sistema nervioso y su impacto en el cuerpo" 
             className="w-full rounded-lg"
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </div>
