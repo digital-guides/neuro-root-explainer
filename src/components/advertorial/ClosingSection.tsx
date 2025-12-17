@@ -16,7 +16,7 @@ const ClosingSection = () => {
       {/* CTA */}
       <div className="bg-gradient-to-br from-primary via-primary to-secondary/80 rounded-lg p-4 md:p-8 text-center shadow-card">
         <a 
-          href="https://nervous-system-test.netlify.app/"
+          href="https://nervous-system-navigator.lovable.app"
           className="inline-flex items-center justify-center gap-2 whitespace-normal rounded-lg text-base md:text-lg font-semibold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg hover:shadow-xl h-auto py-3 px-4 md:px-8 mb-4 w-full md:w-auto transition-all duration-300"
         >
           Haz el Test y descubre tu tipo de desregulación
